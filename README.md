@@ -3,7 +3,7 @@
 A full-stack **Payroll Management Application** designed to manage employee payroll operations securely and efficiently.  
 This system supports **role-based access**, payroll calculations, payslip generation, audit tracking, and admin oversight.
 
-Built as an academic project with **real-world architecture and best practices**.
+Built as an academic project with **real-world architecture**.
 
 ---
 
