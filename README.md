@@ -59,21 +59,22 @@ Built as an academic project with **real-world architecture and best practices**
 payroll/
 │
 ├── backend/
-│ ├── server.js
-│ ├── routes/
-│ ├── controllers/
-│ ├── models/
-│ ├── middleware/
-│ └── config/
+│   ├── server.js
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   ├── middleware/
+│   └── config/
 │
 ├── frontend/
-│ ├── src/
-│ ├── pages/
-│ ├── components/
-│ ├── services/
-│ └── styles/
+│   ├── src/
+│   ├── pages/
+│   ├── components/
+│   ├── services/
+│   └── styles/
 │
 └── README.md
+
 
 ---
 
