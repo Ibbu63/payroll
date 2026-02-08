@@ -94,4 +94,8 @@ const Loans = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Loans;
+=======
+export default Loans;
+>>>>>>> e39df6dd3b886c0bc368ae7664462d66544456eb

@@ -141,4 +141,8 @@ const Requests = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Requests;
+=======
+export default Requests;
+>>>>>>> e39df6dd3b886c0bc368ae7664462d66544456eb

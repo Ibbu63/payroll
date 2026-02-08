@@ -27,6 +27,7 @@ import Loans from "./pages/hr/Loans";
 import Reports from "./pages/hr/Reports";
 import Requests from "./pages/hr/Requests";
 
+<<<<<<< HEAD
 /* ================= EMPLOYEE ================= */
 import EmployeeDashboard from "./pages/employee/EmployeeDashboard";
 import EmpPayslips from "./pages/employee/EmpPayslips";
@@ -53,6 +54,8 @@ function EmployeeLayout() {
 }
 
 
+=======
+>>>>>>> e39df6dd3b886c0bc368ae7664462d66544456eb
 
 function App() {
   return (
@@ -61,6 +64,7 @@ function App() {
       <Route path="/" element={<Login />} />
       <Route path="/access-request" element={<AccessRequest />} />
 
+<<<<<<< HEAD
       {/* ================= ADMIN ================= */}
       <Route
         path="/admin"
@@ -70,6 +74,13 @@ function App() {
           </ProtectedRoute>
         }
       >
+=======
+      {/* ACCESS REQUEST (PUBLIC) */}
+      <Route path="/access-request" element={<AccessRequest />} />
+
+      {/* ADMIN */}
+      <Route path="/admin" element={<AdminLayout />}>
+>>>>>>> e39df6dd3b886c0bc368ae7664462d66544456eb
         <Route index element={<Navigate to="dashboard" replace />} />
         <Route path="dashboard" element={<AdminDashboard />} />
         <Route path="users" element={<UserManagement />} />
@@ -153,6 +164,17 @@ function App() {
   <Route path="profile" element={<EmpProfile />} />
 </Route>
 
+
+      {/* HR */}
+      <Route path="/hr" element={<HRLayout />}>
+        <Route index element={<Navigate to="dashboard" replace />} />
+        <Route path="dashboard" element={<HRDashboard />} />
+        <Route path="employees" element={<Employees />} />
+        <Route path="approvals" element={<Approvals />} />
+        <Route path="loans" element={<Loans />} />
+        <Route path="reports" element={<Reports />} />
+        <Route path="requests" element={<Requests />} />
+      </Route>
 
       {/* FALLBACK */}
       <Route path="*" element={<Navigate to="/" replace />} />
